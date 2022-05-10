@@ -5,4 +5,5 @@ A program to say hello
 """
 
 if __name__ == '__main__':
-    print('Hello, Git world!')
+    user_name = input('Enter your name: ')
+    print('Hello ' + user_name + ', welcome to my Hello World Application!')
